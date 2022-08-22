@@ -2107,20 +2107,22 @@ input, select, textarea {
 			font-size: 0.9em;
 		}
 
-/* Nav */
+/* Nav  */
 
 	#nav {
 		position: absolute;
 		display: block;
-		top: 2.5em;
+		top: 1.5em;
 		left: 0;
 		width: 100%;
-		text-align: center;
+		text-align: right;
+		font-size: 1rem;
 	}
 
 		#nav > ul {
 			display: inline-block;
-			border-radius: 0.35em;
+			border-radius: 0px 0px 0px 0px;
+			background: rgba(26, 26, 243, 0.135);
 			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
 			padding: 0 1.5em 0 1.5em;
 		}
