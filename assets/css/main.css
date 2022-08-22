@@ -2092,8 +2092,8 @@ input, select, textarea {
 		#logo h1 {
 			font-weight: 900;
 			text-transform: uppercase;
-			color: #fff;
-			font-size: 2em;
+			color: rgb(18, 18, 207);
+			font-size: 6rem;
 			letter-spacing: 0.25em;
 		}
 
