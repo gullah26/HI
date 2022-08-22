@@ -150,6 +150,45 @@ input, select, textarea {
 		margin: 2em 0 2em 0;
 	}
 
+	/* Mailchimp form  */
+
+	#mc_embed_signup {
+		background:#fff; 
+		clear:left; 
+		font:14px Helvetica,Arial,sans-serif;  
+		width:600px;
+	}
+
+
+	/* Social-network   */
+
+	.social-networks {
+		margin: 60px;
+		text-align: center;    
+		padding: 1em;
+	
+	}
+	
+	.social-networks > li {
+		display: inline;
+		
+		
+	}
+
+	.social-networks > ul {
+		display: flex;
+		justify-content: center;
+		list-style-type: none;
+	
+	}
+	
+	.social-networks i {
+		font-size: 2rem;
+		margin: 1%;
+		padding: 1.5em;
+		color: #ffffff;
+	}
+
 	sub {
 		position: relative;
 		top: 0.5em;
@@ -174,6 +213,7 @@ input, select, textarea {
 		margin-bottom: 2em;
 	}
 
+	
 /* Container */
 
 	.container {
@@ -2276,7 +2316,6 @@ input, select, textarea {
 	#footer {
 		background: #282b34 url("images/overlay.png");
 		color: #eee;
-		color: rgba(255, 255, 255, 0.5);
 		padding-bottom: 6em;
 	}
 
@@ -2375,8 +2414,10 @@ input, select, textarea {
 
 	#copyright {
 		text-align: center;
-		padding-top: 6em;
-		margin-top: 6em;
+		color: #fff;
+		font-size: 1rem;
+		padding-top: 4em;
+		margin-top: 4em;
 		border-top: solid 1px rgba(255, 255, 255, 0.05);
 	}
 
